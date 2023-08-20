@@ -6,3 +6,4 @@ text-generation-webui/
 
 # Ignore aider files
 .aider*/
+.aider*

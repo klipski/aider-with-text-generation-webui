@@ -1,0 +1,8 @@
+# Ignore virtual environment
+venv/
+
+# Ignore text-generation-webui directory
+text-generation-webui/
+
+# Ignore aider files
+.aider*/

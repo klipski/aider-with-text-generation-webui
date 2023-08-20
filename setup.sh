@@ -29,10 +29,8 @@ pip install -r extensions/openai/requirements.txt
 echo "Installing aider-chat..."
 pip install aider-chat
 
+echo "For running the Python server for text-generation-webui use setup.sh"
 echo "You can call aider with local server with command: aider --openai-api-base http://localhost:5001/v1 --openai-api-key dummy"
-
-echo "Running the Python server for text-generation-webui..."
-python server.py --extensions openai
 
 echo "Script completed."
 deactivate
